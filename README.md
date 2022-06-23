@@ -24,6 +24,7 @@ This small Quantum Information Theory toolbox includes tools to analyze informat
     -    `numpy`
     -   `scipy` 
     - Either `cvxpy` or `picos`, or both.
+    - A solver such as `MOSEK`, `CVXOPT` or `SCS` that can solve SDP's.
 
 ## Installing `qittoolbox` using a Python wheel
 The pre-built Python wheel `qittoolbox-0.0.1-py3-none-any.whl` is available in the sub-directory `/dist/`. After copying this file to your local machine, open a command window and run the command
