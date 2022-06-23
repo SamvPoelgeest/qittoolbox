@@ -1,0 +1,10 @@
+# Compiled Python modules should be excluded from committing
+*.pyc
+
+# Exclude Python egg metadata, regenerated from source files by setuptools.
+# This follows from
+# https://python-packaging.readthedocs.io/en/latest/minimal.html
+/*.egg-info
+
+# Exclude the build info
+/build/*
